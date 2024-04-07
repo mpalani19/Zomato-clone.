@@ -3,9 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zomato Landing Page</title>
+
+    <!--Zomato logo in the tab-->
+   <link
+   rel="icon"
+   type="image"
+   href="https://upload.wikimedia.org/wikipedia/commons/7/75/Zomato_logo.png"
+   />
+
+   <!--zomato font icon on header-->
+   <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+   integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+   crossorigin="anonymous" 
+   referrerpolicy="no-referrer" 
+   />
+
+   <!--Poppin font by google  fonts-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+    rel="stylesheet"
+    />
+
+    <!--External css-->
+    <link rel="stylesheet" href="style.css"/>
+
+    <title>Zomato Landing Page Clone</title>
 </head>
-<body>
-    <h2>Git demonstration.</h2>
+<body> 
+    <!--hero section-->
+    <section class="hero_section">
+        <header>
+            <nav class="nav_bar">
+                <a href="#">Get The App</a>
+                <div class="nav">
+                    <a href="#" class="link">Inventor Relation</a>
+                    <a href="#" class="link">Add Restaraunt</a>
+                    <a href="#" class="link">Login</a>
+                    <a href="#" class="link">Sign up</a>
+                    <a href="#" class="user_icon">
+                        <i class="fa-solid fa-user"></i>
+                    </a>
+                </div>
+            </nav>
+        </header>
+        <div class="hero_section_container">
+            <img src="images/heroSectionLogo.png" 
+            alt="Zomato_logo" 
+            class="hero_section_logo">
+            <h1 class="hero_section_title">Discover the best food & drinks in Bangalore</h1>
+            <div class="input_container_search_bar">
+            <input
+            type="text"
+            class="input_container_location"
+            placeholder="Bangalore"
+            />
+            <input
+            type="text"
+            class="input_container_search"
+            placeholder="Search for a restaraunt,cusine or a dish"/>
+        </div>
+        </div>
+    </section>
 </body>
 </html>
